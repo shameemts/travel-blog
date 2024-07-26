@@ -19,6 +19,24 @@
       .head{
         font-family: "Playwrite HU", cursive;
       }
+      .container1{
+        height: 50px;
+        /* width: 600px; */
+        align-items: center;
+      }
+      .navbar-nav{
+        color: white;
+      }
+      .custom-toggler{
+       
+        /* border-color: rgb(255, 255, 255);
+        border-radius: 40%; */
+      }
+        .custom-toggler .navbar-toggler-icon{
+            background-color: rgb(255, 255, 255);
+            border-radius: 40%;
+        }
+    
     </style>
     </head>
 
@@ -65,26 +83,26 @@
       </nav> -->
 
 
-      <nav class="navbar navbar-expand-lg bg-body-dark">
+      <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><h2 class="head text-warning fs-3">Travel & Explore</h2></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Destinations</a>
+              <li class="nav-item ">
+                <a class="nav-link text-light active" aria-current="page" href="#.place">Destinations</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Travel Tips</a>
+                <a class="nav-link text-light " href="#">Travel Tips</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link text-light  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 
 Travel Gear 
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu text-light ">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
@@ -92,20 +110,20 @@ Travel Gear
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Guide</a>
+                <a class="nav-link disabled text-warning " aria-disabled="true">Guide</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="places" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success text-light " type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
 
       <!-- head -->
-<div class="container bg-warning text-center mt-3" >
-  <h2 class="head text-dark fs-3">Travel & Explore</h2>
+<div class="container1 bg-warning text-center mt-3" >
+  <h2 class="head text-dark fs-3 pt-2">Travel & Explore</h2>
 </div>
 
 <!-- bg video -->
@@ -123,7 +141,7 @@ Travel Gear
 <!-- div section -->
 
 
-<div class="bg-light m-0 p-0">
+<div class="place bg-light m-0 p-0">
   <h1 class="text-center mt-4 text-danger fs-2     font-family: Bebas Neue, sans-serif">Top Blogs</h1>
   <p class="text-center ">Best Places For You
 
